@@ -6,7 +6,7 @@
 
 ## Description
 
-This web application will take an inputted word from the user and check how many times that word appears in a phrase also inputted by the user.
+This web application will take an inputted word from the user and check how many times that word appears in a phrase also inputted by the user. Repository can be found at https://github.com/katyisgreaty/wordCounter .
 
 ## Setup/Installation Requirements
 
