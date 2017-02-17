@@ -38,10 +38,12 @@ namespace RepeatCounterFunction.Objects
         public bool TrueFalse()
         {
             bool result = false;
-            string[] phraseWords = _phraseInput.Split(' ');
+            string upperPhrase = _phraseInput.ToUpper();
+            string upperWord = _wordInput.ToUpper();
+            string[] phraseWords = upperPhrase.Split(' ');
             foreach(string item in phraseWords)
             {
-                if (item == _wordInput)
+                if (item == upperWord)
                 {
                     result = true;
                 }
@@ -50,7 +52,7 @@ namespace RepeatCounterFunction.Objects
                     result = false;
                 }
             }
-            return result; 
+            return result;
         }
 
         public int CountRepeats()

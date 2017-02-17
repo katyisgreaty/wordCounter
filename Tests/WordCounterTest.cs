@@ -18,7 +18,7 @@ namespace RepeatCounterFunction.Objects
         [Fact]
         public void CountRepeats_ReturnTrueIfMatch_true()
         {
-            RepeatCounter testRepeatCounter = new RepeatCounter("rowing", "I like rowing");
+            RepeatCounter testRepeatCounter = new RepeatCounter("rowing", "I like RoWing");
             bool output = testRepeatCounter.TrueFalse();
             Assert.Equal(true, output);
         }
