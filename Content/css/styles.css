@@ -41,7 +41,9 @@ h2 {
 }
 
 .bigger {
-    font-size: 80px;
+    margin-top: 130px;
+    font-size: 110px;
+    font-family: 'Ewert', cursive;
 }
 
 a {
@@ -53,7 +55,9 @@ p {
     border-radius: 4px;
     width: 300px;
     padding: 8px;
-    padding-left: 17px;
+    padding-left: 7px;
+    margin-top: 250px;
+    text-align: center;
 }
 
 
