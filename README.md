@@ -21,7 +21,7 @@ This web application will take an inputted word from the user and check how many
 **The program will return the inputted phrase and word.**
 * Example Input: "this is a phrase", "pickle"
 * Example Output: "this is a phrase", "pickle"
-* Reasoning: At this stage it doesn't matter what's in the inputs, but I do want to make sure it can handle a phrase with multiple words, and it doesn't matter if they match or not.
+* Reasoning: At this stage it doesn't matter what's in the inputs, and it doesn't matter if they match or not.
 
 **The program will return true if it finds the word inside the phrase.**
 * Example Input: "I like rowing", "rowing"
@@ -33,7 +33,8 @@ This web application will take an inputted word from the user and check how many
 * Example Output: 3
 * Reasoning: I want to test if the program can count how many times the inputted word shows up, so I wrote an example sentence that contains the word several times, instead of just once.
 
-
+## Ice Box
+* Add option to search/count for multiple words at once
 
 ## Support and contact details
 
