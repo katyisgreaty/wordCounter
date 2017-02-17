@@ -26,7 +26,7 @@ namespace RepeatCounterFunction.Objects
         [Fact]
         public void CountRepeats_ReturnTrueIfMatchWithPunctuation_true()
         {
-            RepeatCounter testRepeatCounter = new RepeatCounter("rowing", "I !like rowing.");
+            RepeatCounter testRepeatCounter = new RepeatCounter("rowing", "I !like r-owing.");
             bool output = testRepeatCounter.TrueFalse();
             Assert.Equal(true, output);
         }

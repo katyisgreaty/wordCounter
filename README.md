@@ -28,6 +28,11 @@ This web application will take an inputted word from the user and check how many
 * Example Output: true
 * Reasoning: I want to test if it can recognize a word match in a simple, short sentence. One match is enough to test this spec. Also, I don't care yet about counting the number of matches, just that the program can recognize if there have been any matches.
 
+**The program will return true if it finds the word inside the phrase, regardless of punctuation and case.**
+* Example Input: "I !like r-owing.", "rowing"
+* Example Output: true
+* Reasoning: I want to test if it can recognize a word match in a simple, short sentence, regardless of punctuation and if letters are upper or lower case. One match is enough to test this spec. Also, I don't care yet about counting the number of matches, just that the program can recognize if there have been any matches.
+
 **The program will count the number of times it finds the word inside the phrase.**
 * Example Input: "Every dog is cute but my favorite kind of dog is a happy dog", "dog"
 * Example Output: 3
