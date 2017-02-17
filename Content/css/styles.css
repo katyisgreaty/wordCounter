@@ -11,6 +11,10 @@
     2px 2px 0 #7E3218;
 }
 
+span {
+    font-size: 160px;
+}
+
 body {
     font-family: 'Cutive', serif;
     font-size: 18px;
@@ -28,11 +32,35 @@ body {
     color: white;
 }
 
+.typers {
+    color: black;
+}
 
-font-family: 'Pacifico', cursive;
+h2 {
+    text-align: center;
+}
+
+.bigger {
+    font-size: 80px;
+}
+
+a {
+    color: white;
+}
+
+p {
+    background-color: #F6BD35;
+    border-radius: 4px;
+    width: 300px;
+    padding: 8px;
+    padding-left: 17px;
+}
+
+
+/*font-family: 'Pacifico', cursive;
 font-family: 'Quicksand', sans-serif;
 font-family: 'Copse', serif;
 font-family: 'Trocchi', serif;
 font-family: 'Cutive', serif;
 font-family: 'Ewert', cursive;
-font-family: 'Josefin Slab', serif;
+font-family: 'Josefin Slab', serif;*/
