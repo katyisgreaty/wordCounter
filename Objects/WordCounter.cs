@@ -9,12 +9,13 @@ namespace RepeatCounterFunction.Objects
         private string _phraseInput;
         private string _wordInput;
         private List<string> _outputInputs = new List<string>{};
-        // private int _counter;
+        private int _counter;
 
         public RepeatCounter (string phrase, string word)
         {
             _phraseInput = phrase;
             _wordInput = word;
+            _counter = 0;
         }
 
         public List<string> GetInputs()
@@ -40,6 +41,19 @@ namespace RepeatCounterFunction.Objects
                 }
             }
             return result;
+        }
+
+        public int CountRepeats()
+        {
+            string[] phraseWords = _phraseInput.Split(' ');
+            foreach(string item in phraseWords)
+            {
+                if (item == _wordInput)
+                {
+                    _counter += 1;
+                }
+            }
+            return _counter;
         }
     }
 }
