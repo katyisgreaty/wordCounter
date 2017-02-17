@@ -21,7 +21,12 @@ This web application will take an inputted word from the user and check how many
 **The program will return the inputted phrase and word.**
 * Example Input: "this is a phrase", "pickle"
 * Example Output: "this is a phrase", "pickle"
-* Reasoning: I first want to make sure that my program can recognize both of the inputs, because it will need to be able to manipulate them later on.
+* Reasoning: At this stage it doesn't matter what's in the inputs, but I do want to make sure it can handle a phrase with multiple words, and it doesn't matter if they match or not.
+
+**The program will return true if it finds the word inside the phrase.**
+* Example Input: "I like rowing", "rowing"
+* Example Output: true
+* Reasoning: I want to test if it can recognize a word match in a simple, short sentence. One match is enough to test this spec. Also, I don't care yet about counting the number of matches, just that the program can recognize if there have been any matches.
 
 
 
