@@ -9,7 +9,7 @@ namespace RepeatCounterFunction.Objects
         [Fact]
         public void CountRepeats_ReturnInputs_allInputs()
         {
-            RepeatCounter testRepeatCounter = new RepeatCounter("this is a phrase", "pickle");
+            RepeatCounter testRepeatCounter = new RepeatCounter("pickle", "this is a phrase");
             List<string> expected = new List<string>{"this is a phrase", "pickle"};
             List<string> output = testRepeatCounter.GetInputs();
             Assert.Equal(expected, output);
@@ -18,7 +18,7 @@ namespace RepeatCounterFunction.Objects
         [Fact]
         public void CountRepeats_ReturnTrueIfMatch_true()
         {
-            RepeatCounter testRepeatCounter = new RepeatCounter("I like rowing", "rowing");
+            RepeatCounter testRepeatCounter = new RepeatCounter("rowing", "I like rowing");
             bool output = testRepeatCounter.TrueFalse();
             Assert.Equal(true, output);
         }
@@ -26,8 +26,8 @@ namespace RepeatCounterFunction.Objects
         [Fact]
         public void CountRepeats_ReturnCount_numberOfMatches()
         {
-            RepeatCounter testRepeatCounter = new RepeatCounter("Every dog is cute but my favorite kind of dog is a happy dog", "dog");
-            int expected = 3;
+            RepeatCounter testRepeatCounter = new RepeatCounter("boat", "the boat is ugly");
+            int expected = 1;
             int output = testRepeatCounter.CountRepeats();
             Assert.Equal(expected, output);
         }

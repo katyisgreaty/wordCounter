@@ -11,7 +11,7 @@ namespace RepeatCounterFunction.Objects
         private List<string> _outputInputs = new List<string>{};
         private int _counter;
 
-        public RepeatCounter (string phrase, string word)
+        public RepeatCounter (string word, string phrase)
         {
             _phraseInput = phrase;
             _wordInput = word;
