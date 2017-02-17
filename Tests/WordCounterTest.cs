@@ -43,7 +43,7 @@ namespace RepeatCounterFunction.Objects
         [Fact]
         public void CountRepeats_ReturnCountRegardlessofPunctuation_numberOfMatches()
         {
-            RepeatCounter testRepeatCounter = new RepeatCounter("dog", "Every !dog is cute but my favorite kind of dog? is a happy dog");
+            RepeatCounter testRepeatCounter = new RepeatCounter("Dog", "Every !dog is cute but my favorite kind of dog? is a happy dOg");
             int expected = 3;
             int output = testRepeatCounter.CountRepeats();
             Assert.Equal(expected, output);

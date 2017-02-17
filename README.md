@@ -38,6 +38,11 @@ This web application will take an inputted word from the user and check how many
 * Example Output: 3
 * Reasoning: I want to test if the program can count how many times the inputted word shows up, so I wrote an example sentence that contains the word several times, instead of just once.
 
+**The program will count the number of times it finds the word inside the phrase, regardless of punctuation and case.**
+* Example Input: "Every !dog is cute but my favorite kind of dog? is a happy dOg", "Dog"
+* Example Output: 3
+* Reasoning: I want to test if the program can count how many times the inputted word shows up, regardless of punctuation and if letters are upper or lower case, so I wrote an example sentence that contains the word several times with different cases and punctuation, instead of just once.
+
 ## Ice Box
 * Add option to search/count for multiple words at once
 
