@@ -14,5 +14,14 @@ namespace RepeatCounterFunction.Objects
             List<string> output = testRepeatCounter.GetInputs();
             Assert.Equal(expected, output);
         }
+
+        [Fact]
+        public void CountRepeats_ReturnTrueIfMatch_true()
+        {
+            RepeatCounter testRepeatCounter = new RepeatCounter("I like rowing", "rowing");
+            string expected = new string("true");
+            string output = testRepeatCounter.TrueFalse();
+            Assert.Equal(expected, output);
+        }
     }
 }
