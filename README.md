@@ -28,6 +28,11 @@ This web application will take an inputted word from the user and check how many
 * Example Output: true
 * Reasoning: I want to test if it can recognize a word match in a simple, short sentence. One match is enough to test this spec. Also, I don't care yet about counting the number of matches, just that the program can recognize if there have been any matches.
 
+**The program will count the number of times it finds the word inside the phrase.**
+* Example Input: "Every dog is cute but my favorite kind of dog is a happy dog", "dog"
+* Example Output: 3
+* Reasoning: I want to test if the program can count how many times the inputted word shows up, so I wrote an example sentence that contains the word several times, instead of just once.
+
 
 
 ## Support and contact details
