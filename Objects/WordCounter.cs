@@ -38,9 +38,15 @@ namespace RepeatCounterFunction.Objects
         public bool TrueFalse()
         {
             bool result = false;
-            string upperPhrase = _phraseInput.ToUpper();
+            string noCommaPhrase = _phraseInput.Replace(",", "");
+            string noPeriodPhrase = noCommaPhrase.Replace(".", "");
+            string noExclaimPhrase = noPeriodPhrase.Replace("!", "");
+            string noDashPhrase = noExclaimPhrase.Replace("-", "");
+            string noPunctPhrase = noDashPhrase.Replace("?", "");
+            string upperPhrase = noPunctPhrase.ToUpper();
             string upperWord = _wordInput.ToUpper();
             string[] phraseWords = upperPhrase.Split(' ');
+            Console.WriteLine(upperPhrase);
             foreach(string item in phraseWords)
             {
                 if (item == upperWord)
