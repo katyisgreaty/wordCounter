@@ -50,7 +50,7 @@ namespace RepeatCounterFunction.Objects
                     result = false;
                 }
             }
-            return result;
+            return result; 
         }
 
         public int CountRepeats()
