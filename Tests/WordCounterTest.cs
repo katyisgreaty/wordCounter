@@ -26,8 +26,8 @@ namespace RepeatCounterFunction.Objects
         [Fact]
         public void CountRepeats_ReturnCount_numberOfMatches()
         {
-            RepeatCounter testRepeatCounter = new RepeatCounter("boat", "the boat is ugly");
-            int expected = 1;
+            RepeatCounter testRepeatCounter = new RepeatCounter("boat", "the BOat is boat BOAT ugly");
+            int expected = 3;
             int output = testRepeatCounter.CountRepeats();
             Assert.Equal(expected, output);
         }

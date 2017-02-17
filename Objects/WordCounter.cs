@@ -55,10 +55,12 @@ namespace RepeatCounterFunction.Objects
 
         public int CountRepeats()
         {
-            string[] phraseWords = _phraseInput.Split(' ');
+            string upperPhrase = _phraseInput.ToUpper();
+            string upperWord = _wordInput.ToUpper();
+            string[] phraseWords = upperPhrase.Split(' ');
             foreach(string item in phraseWords)
             {
-                if (item == _wordInput)
+                if (item == upperWord)
                 {
                     _counter += 1;
                 }
