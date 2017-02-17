@@ -1,0 +1,13 @@
+@{
+    Layout="Shared/_Layout.cshtml";
+}
+
+<h3>@Model.GetWord() is in your phrase (@Model.GetPhrase()) @Model.CountRepeats()
+    if (@Model.CountRepeats() > 1)
+    {
+        times.</h3>
+    }
+    else
+    {
+        time. </h3>
+    }

@@ -18,6 +18,16 @@ namespace RepeatCounterFunction.Objects
             _counter = 0;
         }
 
+        public string GetWord()
+        {
+            return _wordInput;
+        }
+
+        public string GetPhrase()
+        {
+            return _phraseInput;
+        }
+
         public List<string> GetInputs()
         {
             _outputInputs.Add(_phraseInput);
