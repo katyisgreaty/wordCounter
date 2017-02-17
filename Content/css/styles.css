@@ -1,0 +1,38 @@
+.jumbotron {
+    font-size: 100px;
+    background-color: #F6BD35;
+    color: white;
+    font-family: 'Ewert', cursive;
+    text-align: center;
+    text-shadow:
+    -2px -2px 0 #7E3218,
+    2px -2px 0 #7E3218,
+    -2px 2px 0 #7E3218,
+    2px 2px 0 #7E3218;
+}
+
+body {
+    font-family: 'Cutive', serif;
+    font-size: 18px;
+    background-image: url(http://www.desktopwallpaperhd.net/wallpapers/15/f/western-sunset-wallpaper-desktopia-background-cowboy-156527.jpg);
+    color: white;
+    text-shadow:
+    -1px -1px 0 #7E3218,
+    1px -1px 0 #7E3218,
+    -1px 1px 0 #7E3218,
+    1px 1px 0 #7E3218;
+}
+
+.buttcolor {
+    background-color: #3F190C;
+    color: white;
+}
+
+
+font-family: 'Pacifico', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Copse', serif;
+font-family: 'Trocchi', serif;
+font-family: 'Cutive', serif;
+font-family: 'Ewert', cursive;
+font-family: 'Josefin Slab', serif;
