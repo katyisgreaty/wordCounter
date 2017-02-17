@@ -9,7 +9,7 @@ namespace RepeatCounterFunction.Objects
         private string _phraseInput;
         private string _wordInput;
         private List<string> _outputInputs = new List<string>{};
-        private int _counter;
+        // private int _counter;
 
         public RepeatCounter (string phrase, string word)
         {
@@ -22,6 +22,24 @@ namespace RepeatCounterFunction.Objects
             _outputInputs.Add(_phraseInput);
             _outputInputs.Add(_wordInput);
             return _outputInputs;
+        }
+
+        public bool TrueFalse()
+        {
+            bool result = false;
+            string[] phraseWords = _phraseInput.Split(' ');
+            foreach(string item in phraseWords)
+            {
+                if (item == _wordInput)
+                {
+                    result = true;
+                }
+                else
+                {
+                    result = false;
+                }
+            }
+            return result;
         }
     }
 }

@@ -19,9 +19,9 @@ namespace RepeatCounterFunction.Objects
         public void CountRepeats_ReturnTrueIfMatch_true()
         {
             RepeatCounter testRepeatCounter = new RepeatCounter("I like rowing", "rowing");
-            string expected = new string("true");
-            string output = testRepeatCounter.TrueFalse();
-            Assert.Equal(expected, output);
+            // string expected = new string("true");
+            bool output = testRepeatCounter.TrueFalse();
+            Assert.Equal(true, output);
         }
     }
 }
