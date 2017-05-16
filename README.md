@@ -57,7 +57,7 @@ This web application uses:
 * Razor
 
 ### License
-
+ 
 *This project is licensed under the MIT license.*
 
 Copyright (c) 2017 **_Katy Daviscourt_**
